@@ -1,0 +1,17 @@
+# Ignore Python cache and environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore model and vectorizer files
+*.pkl
+
+# Ignore datasets or large data files
+*.csv
+
+# Ignore system or IDE files
+.DS_Store
+.vscode/
+*.log
